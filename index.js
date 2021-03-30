@@ -1,7 +1,3 @@
-const asyncFunc = async () => {
-    return true;
-}
+const asyncFunc = async () => true;
 
-const isTrue = await asyncFunc();
-
-console.log(isTrue);
+await asyncFunc();
